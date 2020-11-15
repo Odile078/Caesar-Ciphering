@@ -11,4 +11,11 @@ public class CryptTest {
         assertEquals(true, testCrypt instanceof Crypt);
     }
 
+    @Test
+    public void testIfCrypt_getskey_4() {
+        Crypt testCrypt = new Crypt("anne", 4);
+        assertEquals(4, testCrypt.getKey());
+    }
+
+
 }
