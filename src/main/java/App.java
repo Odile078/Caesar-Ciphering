@@ -18,7 +18,7 @@ public class App {
         System.out.println("Here is the encrypted text : "+ Crypt.encrypting( encrypttxt, encryptN ));
         System.out.println("      ----------       ");
         System.out.println("-Decryption");
-        System.out.println("Here is the encrypted decrypted: "+ Dcrypt.decrypting( Crypt.encrypting( encrypttxt, encryptN), encryptN ));
+        System.out.println("Here is the encrypted text decrypted: "+ Dcrypt.decrypting( Crypt.encrypting( encrypttxt, encryptN), encryptN ));
 
 
     }
