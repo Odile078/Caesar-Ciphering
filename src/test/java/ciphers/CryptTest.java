@@ -17,5 +17,11 @@ public class CryptTest {
         assertEquals(4, testCrypt.getKey());
     }
 
+    @Test
+    public void testIfCrypt_getstext_Anne() {
+        Crypt testCrypt = new Crypt("anne", 4);
+        assertEquals("anne", testCrypt.getText());
+    }
+
 
 }
