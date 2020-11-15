@@ -22,6 +22,14 @@ public class CryptTest {
         Crypt testCrypt = new Crypt("anne", 4);
         assertEquals("anne", testCrypt.getText());
     }
+    @Test
+    public void testIfCryptionOfletterWork() {
+
+        int key = 2;
+        String letters = "mama";
+        String expectedincryption = "ococ";
+        assertEquals(expectedincryption, Crypt.encrypting( letters, key ));
+    }
 
 
 }
