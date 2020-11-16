@@ -9,17 +9,26 @@ This is a Java program of Caesar cipher decryption and encryption of letter with
  Odile Uwimpuhwe
 
 ## Demonstration
+*Running the Program using Small letter
 ![Running the Program using Small letter](Photos/project.png)
+*Running the Program using Uppercase letters
 ![Running the Program using Uppercase letters](Photos/project2.png)
+*Running the Program including numbers
 ![Running the Program including numbers ](Photos/project3.png)
+*Interface codes
 ![Interface codes](Photos/App-java.png)
+*Crypting codes
 ![Crypting codes](Photos/Crypt-java.png)
+
 ![Crypting codes](Photos/Crypt2-java.png)
+*Crypting test codes
 ![Crypting test codes](Photos/CryptTest-java.png)
 ![Crypting test codes 2](Photos/CryptTest-3.png)
 ![Crypting test codes 3](Photos/Crypttest-4.png)
 ![Crypting test codes 4]()
+*Decrypting codes
 [Decrypting codes](Photos/Dcrypt-java.png)
+*Decrypting  test codes
 ![Decrypting test codes](Photos/Dcrypttest-java.png)
 
 
