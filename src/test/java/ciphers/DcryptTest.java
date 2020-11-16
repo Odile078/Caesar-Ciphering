@@ -23,7 +23,7 @@ public class DcryptTest {
         assertEquals("anne", testDcrypt.getText());
     }
     @Test
-    public void testIfCryptionOfletterWork() {
+    public void testIfDcryptionOfletterWork() {
 
         int key = 2;
         String letters = "ococ";
