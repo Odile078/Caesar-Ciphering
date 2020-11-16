@@ -3,6 +3,8 @@ import ciphers.Dcrypt;
 
 import java.io.Console;
 
+import static java.lang.Integer.*;
+
 public class App {
     public static void main(String[] args) {
         Console myconsole = System.console();

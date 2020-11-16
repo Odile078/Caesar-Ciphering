@@ -1,4 +1,4 @@
-# CAaesar Ciphering
+# Caesar Ciphering
 
 This project was developped using Java.
 
@@ -7,6 +7,18 @@ This project was developped using Java.
 This is a Java program of Caesar cipher decryption and encryption of letter with regard to the key chosen.
 ## Author
  Odile Uwimpuhwe
+
+## Demonstration
+![Running the Program](Photos/project.png)
+![Interface codes](Photos/App-java.png)
+![Crypting codes](Photos/Crypt-java.png)
+![Crypting codes](Photos/Crypt2-java.png)
+![Crypting test codes](Photos/CryptTest-java.png)
+![Crypting test codes 2](Photos/CryptTest-3.png)
+![Crypting test codes 3](Photos/Crypttest-4.png)
+![Crypting test codes 4]()
+[Decrypting codes](Photos/Dcrypt-java.png)
+![Decrypting test codes](Photos/Dcrypttest-java.png)
 
 
 ## Installation / Setup instruction
