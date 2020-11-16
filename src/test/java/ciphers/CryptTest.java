@@ -30,6 +30,35 @@ public class CryptTest {
         String expectedincryption = "ococ";
         assertEquals(expectedincryption, Crypt.encrypting( letters, key ));
     }
+    @Test
+    public void testIfletterisLetterWork() {
+
+        int key = 2;
+        String letters = "1";
+        String expectedincryption = "Use letters only";
+        assertEquals(expectedincryption, Crypt.encrypting( letters, key ));
+    }
+    @Test
+    public void testIfletterisUpperCaseWork() {
+
+        int key = 2;
+        String letters = "M";
+        String expectedincryption = "O";
+        assertEquals(expectedincryption, Crypt.encrypting( letters, key ));
+    }
+
+    @Test
+    public void testIfletterisLowerCaseWork() {
+
+        int key = 2;
+        String letters = "m";
+        String expectedincryption = "o";
+        assertEquals(expectedincryption, Crypt.encrypting( letters, key ));
+    }
+
+
+
+
 
 
 }
