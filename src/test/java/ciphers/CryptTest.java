@@ -31,7 +31,7 @@ public class CryptTest {
         assertEquals(expectedincryption, Crypt.encrypting( letters, key ));
     }
     @Test
-    public void testIfletterisLetterWork() {
+    public void testIfEncrytionWithNumberWork() {
 
         int key = 2;
         String letters = "1";

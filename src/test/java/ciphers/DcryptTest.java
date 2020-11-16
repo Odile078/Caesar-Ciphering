@@ -22,4 +22,13 @@ public class DcryptTest {
         Dcrypt testDcrypt = new Dcrypt("Marie", 4);
         assertEquals("anne", testDcrypt.getText());
     }
+    @Test
+    public void testIfCryptionOfletterWork() {
+
+        int key = 2;
+        String letters = "ococ";
+        String expectedincryption = "mama";
+        assertEquals(expectedincryption, Dcrypt.decrypting( letters, key ));
+    }
+
 }

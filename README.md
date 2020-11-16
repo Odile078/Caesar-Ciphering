@@ -30,6 +30,8 @@ This is a Java program of Caesar cipher decryption and encryption of letter with
 [Decrypting codes](Photos/Dcrypt-java.png)
 *Decrypting  test codes
 ![Decrypting test codes](Photos/Dcrypttest-java.png)
+![Decrypting test codes](Photos/Dcrypttest2.png)
+
 
 
 ## Installation / Setup instruction
